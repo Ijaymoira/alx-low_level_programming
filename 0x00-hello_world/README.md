@@ -1,1 +1,1 @@
-generates assembly code save in output
+assmebly code
