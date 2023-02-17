@@ -1,1 +1,1 @@
-printing a string with a function without using printf
+prints size of various type of computer
