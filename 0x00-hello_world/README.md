@@ -1,1 +1,1 @@
-script for preprocessing file
+complier of c code
