@@ -12,6 +12,7 @@ char x;
 for (x = 'a'; x <= 'z'; x++)
 if (x == 'q' && x == 'e')
 continue;
+x++;
 putchar(x);
 putchar('\n');
 return (0);
