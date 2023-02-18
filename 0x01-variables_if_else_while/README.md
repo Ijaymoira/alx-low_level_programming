@@ -1,1 +1,1 @@
-print in lowercase then uppercase
+prints all charaters except q and e
