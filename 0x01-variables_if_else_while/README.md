@@ -1,1 +1,1 @@
-complete the program that uses if
+the last digit plus if
