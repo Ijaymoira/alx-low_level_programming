@@ -4,11 +4,11 @@
 /**
  * main - entry point
  *
- * Description: 
+ * Description: last digit of a given number and if
  *
  * Return: Always 0(Success)
  */
-int main()
+int main(void)
 {
 int n, is;
 scanf("%d", &n);
