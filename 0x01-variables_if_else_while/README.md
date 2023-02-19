@@ -1,1 +1,1 @@
-output all single digit of numbers in base 10
+printing numbers in base 10 using only putchar
