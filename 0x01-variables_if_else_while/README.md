@@ -1,1 +1,1 @@
-printing all posible combination of first digit
+printing all combination of two digits with comma in ascending order
