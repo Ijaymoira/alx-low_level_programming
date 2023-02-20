@@ -1,1 +1,1 @@
-outputting first 16 digit of  base 16
+printing all posible combination of first digit
