@@ -9,10 +9,9 @@
 int main(void)
 {
 char x;
-for (x = 'a';x <= 'z';x++)
+for (x = 0;x <= 26;x++)
 if (x == 'e' && x == 'q')
-x++;
-putchar(x);
+putchar('a' + x);
 putchar('\n');
 return (0);
 }
