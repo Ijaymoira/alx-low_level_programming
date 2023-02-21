@@ -9,17 +9,22 @@
  */
 int main(void)
 {
-int num1, num2;
-for (num1 = 0; num1 < 10; num1++)
+int a;
+int b;
+for (a = '0'; a <= '9'; a++)
 {
-for (num2 = 0; num2 < 10; num2++)
+for (b = '0'; b <= '9'; b++)
 {
-putchar((num1 % 10) + '0');
-putchar((num2 % 10) + '0');
-if (num1 == 9 && num2 == 9)
-continue;
+if (!((a == b) || (b > a)))
+{
+putchar(a);
+putchar(b);
+if (!(a == '9' && b == '8'))
+{
 putchar(',');
 putchar(' ');
+}
+}
 }
 }
 putchar('\n');
