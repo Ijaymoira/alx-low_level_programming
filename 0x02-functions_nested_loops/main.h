@@ -1,9 +1,9 @@
 /**
  * main entry point
  *
- * Description - prototype and function for string.
+ * first_strin - prototype and function for string.
  *
- * Return:Always 0 (Success)
+ * Return: void
  */
 void first_strin(char *s)
 {
