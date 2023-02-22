@@ -1,1 +1,1 @@
-program that complete random numbers
+printing putchar using putchar

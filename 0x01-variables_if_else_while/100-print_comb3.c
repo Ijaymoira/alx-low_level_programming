@@ -3,14 +3,13 @@
  * main - entry point
  *
  * Description - Prints the combination of two digits 0-19,23-39,45-59,67-79, numbers separated by
- *        a comma followed by a space, in ascending order.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int a;
-int b;
+int a = '0';
+int b = '0';
 for (a = '0'; a <= '9'; a++)
 {
 for (b = '0'; b <= '9'; b++)
