@@ -2,8 +2,7 @@
 /**
  * main entry point
  *
- * description - function that prints 10 times the alphabet, 
- * in lowercase, followed by a new line
+ * description - function that prints 10 times the alphabet. 
  *
  * Return: 0
  */
