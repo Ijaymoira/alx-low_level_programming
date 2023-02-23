@@ -4,8 +4,8 @@
  *
  * Descriptions - string with putchar
  * _putchar  - displaying a string putchar using putchar
- * 
- *  Return: Always 0 (Success)
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
