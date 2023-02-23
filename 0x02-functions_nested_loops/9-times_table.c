@@ -3,9 +3,9 @@
 /**
  * main - entry point
  *
- * times_table - prints the 9 times table, starting with 0
+ * times_table - prints the 9 times table with 0 - 81
  *
- * REturn: void
+ * Return: void
  */
 void times_table(void)
 {
@@ -25,7 +25,8 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 _putchar(k + '0');
-} else if (k >= 10)
+}
+else if (k >= 10)
 {
 _putchar(',');
 _putchar(' ');
