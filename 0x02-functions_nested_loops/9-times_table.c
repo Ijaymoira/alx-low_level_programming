@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * times_table - prints the 9 times table with 0 - 81
+ * void times_table - prints the 9 times table with 0 - 81
  *
  * Return: void
  */
