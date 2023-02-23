@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * main -  entry point
+ * print_alphabet_x10 - Make alphabet x10 lines
  *
- * print_alphabet_x10 - print_alphabet_x10 prints 10 times the alphabeth
- *
- * Return: 0
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
