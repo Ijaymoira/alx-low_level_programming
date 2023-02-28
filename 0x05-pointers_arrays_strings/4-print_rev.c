@@ -11,6 +11,7 @@ while (*s != '\0')
 len++;
 s++;
 }
+s--;
 for (index = len; index > 0; index--)
 {
 _putchar(*s);
