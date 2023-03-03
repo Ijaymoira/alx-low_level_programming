@@ -1,11 +1,6 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
-/**
- * File: holberton.h
- * Auth: Brennan D Baraban
- * Desc: Header file containing prototypes for all functions
- *       used in the 0x05-pointers_arrays_strings directory.
- */
+#ifndef MAIN_H
+#define MAIN_H
+
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
@@ -19,5 +14,4 @@ char *rot13(char *);
 void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *b, int size);
-
-#endif /** MAIN.H*/
+#endif
