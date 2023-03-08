@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 /**
  * _memset - fills the first n bytes of memory area
  * pointed to by swith constant b
@@ -11,10 +9,11 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-unsigned char *c = s; 
-unsigned char value = b;
-int i;
-for (i = 0; i < n; i++)
-c[i] = value;
-return (c);
+int i = 0;
+for (; n > 0; i++)
+{
+s[i] = b;
+n--;
+}
+return (s);
 }
