@@ -15,29 +15,14 @@ char *create_array(unsigned int size, char c)
 int i;
 char *ptr;
 int n = size;
-ptr = malloc(sizeof(char) * (n + 1));
+ptr = malloc(sizeof(char) * n);
 if (ptr == NULL)
 return (NULL);
 else
-for (i = '0'; i < (n + 1); i++)
+for (i = '0'; i < n; i++)
 {
 *(ptr + i) = c;
 }
+ptr[i] = '\0';
 return (NULL);
-}
-/*
- * cmain - Entry point to initialize a special character and size of memory
- * in the create_array function.
- * description -  it calls the create_array function
- * that creates an array of chars
- * and initializes it with specific char
- * Return: Always 0 (Success)
- */
-int cmain(void)
-{
-char *ptr;
-ptr = create_array(2, 'h');
-putchar(*ptr + 1);
-putchar('\n');
-return (0);
 }
