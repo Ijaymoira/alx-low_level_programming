@@ -26,14 +26,14 @@ for (i = '0'; i < (n + 1); i++)
 return (NULL);
 }
 /*
- * main - Entry point to initialize a special character and size of memory
+ * cmain - Entry point to initialize a special character and size of memory
  * in the create_array function.
  * description -  it calls the create_array function
  * that creates an array of chars
  * and initializes it with specific char
  * Return: Always 0 (Success)
  */
-int main(void)
+int cmain(void)
 {
 char *ptr;
 ptr = create_array(2, 'h');
