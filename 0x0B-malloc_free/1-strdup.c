@@ -16,7 +16,7 @@ if (str == NULL)
 return (NULL);
 else
 while (*str)
-*ptr = *str;
+ptr = str;
 str++;
 ptr++;
 return (ptr);
