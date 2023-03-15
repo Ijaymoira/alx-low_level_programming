@@ -15,9 +15,11 @@ str = malloc(sizeof(char));
 if (str == NULL)
 return (NULL);
 else
-while (*str)
-ptr = str;
+while (ptr == str)
+{
 str++;
 ptr++;
 return (ptr);
+}
+return (NULL);
 }
