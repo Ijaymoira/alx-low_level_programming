@@ -9,10 +9,12 @@
  */
 void *malloc_checked(unsigned int b)
 {
-int *ptr;
+int *ptr, n;
+n = 98;
 ptr = malloc(sizeof(int) * b);
 return (ptr);
 if (ptr == NULL)
-exit(98);
+printf("%d", n);
+exit(EXIT_SUCCESS);
 putchar('\n');
 }
