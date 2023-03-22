@@ -1,23 +1,24 @@
-#include "main.h"
+#include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
-/*
- *
- *
- *
+/**
+ * print_dog - Prints a struct dog.
+ * @d: The struct dog to be printed.
  */
 void print_dog(struct dog *d)
 {
-struct dog my_dog(char *name, float age, char *owner);
-d = (struct)malloc(sizeof(struct dog));
-d = &my_dog;
-d -> name = my_dog.name;
-d -> age = my_dog.age;
-d -> owner = my_dog.owner
-if (d == NULL)
-printf("nil");
-if (name == NULL )
-printf("Name: nil");
 if (d == NULL)
 return;
+if (d->name == NULL)
+printf("Name: (nil)\n");
+else
+printf("Name: %s\n", d->name);
+if (d->age < 0)
+printf("Age: (nil)\n");
+else
+printf("Age: %f\n", d->age);
+if (d->owner == NULL)
+printf("Owner: (nil)\n");
+else
+printf("Owner: %s\n", d->owner);
 }
