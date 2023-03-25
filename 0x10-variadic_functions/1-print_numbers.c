@@ -9,14 +9,15 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-va_list ap;
-unsigned int i;
-va_start(ap, n);
-printf("%d", va_arg(ap, int));
-for (i = n; i != 0; i = va_arg(ap, int))
-printf("%s %d",separator, i);
-if (separator == NULL)
-return;
-putchar('\n');
-return;
+va_list nums;
+unsigned int index;
+va_start(nums, n);
+for (index = 0; index < n; index++)
+{
+printf("%d", va_arg(nums, int));
+if (index != (n - 1) && separator != NULL)
+printf("%s", separator);
+}
+printf("\n");
+va_end(nums);
 }
